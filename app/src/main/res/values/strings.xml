@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hearthstone App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_compare_cards">CompareCardsActivity</string>
+    <string name="action_compare">Compare</string>
+    <string name="action_focus">Focus</string>
+    <string name="title_activity_focus">FocusActivity</string>
+    <string name="action_weapons">Weapons</string>
+    <string name="action_spells">Spells</string>
+    <string name="action_vanilla">Plain</string>
+    <string name="title_activity_my">MyActivity</string>
+
+</resources>

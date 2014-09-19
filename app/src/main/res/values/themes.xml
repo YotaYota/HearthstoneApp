@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="AppTheme.Customized"
+           parent="@android:style/Theme.Holo">
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+        <item name="android:backgroundSplit">@style/CustomTabsSplit</item>
+        <item name="android:backgroundStacked">@style/CustomTabsStacked</item>
+        <item name="android:actionBarTabStyle">@style/MyActionBarTabs</item>
+    </style>
+
+    <!-- Custom Styles -->
+    <style name="CustomActionBar"
+           parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/box_darker_blue</item>
+    </style>
+
+    <style name="CustomTabsSplit"
+           parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:backgroundSplit">@drawable/box_blue</item>
+    </style>
+
+    <style name="CustomTabsStacked"
+           parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:backgroundStacked">@drawable/box_blue</item>
+    </style>
+
+    <style name="MyActionBarTabs"
+           parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <!-- tab indicator -->
+        <item name="android:background">@drawable/actionbar_tab_indicator</item>
+    </style>
+
+</resources>
